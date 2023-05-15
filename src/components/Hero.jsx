@@ -1,4 +1,5 @@
 import React from 'react'
+import { setGlobalState } from '../store'
 
 const Hero = () => {
   return (
@@ -9,7 +10,8 @@ const Hero = () => {
         </h1>
         <div className='flex justify-center items-center space-x-2'>
         <button type='button' className='inline-block px-6 py-2.5 bg-green-600 text-white
-            font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-green-700'>Add Project</button>
+            font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-green-700'
+            onClick={() => setGlobalState('createModal', 'scale-100')}>Add Project</button>
 
         <button type='button' className='inline-block px-6 py-2.5 border border-green-600
             font-medium text-xs leading-tight uppercase text-green-600 rounded-full shadow-md 
