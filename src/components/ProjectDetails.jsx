@@ -2,10 +2,11 @@ import Identicons from 'react-identicons'
 import { FaEthereum } from 'react-icons/fa'
 
 const ProjectDetails = () => {
-  return (
-    <div className='py-24 px-6 flex justify-center'>
-        <div className='flex justify-start items-start flex-col md:w-2/3'>
-            <div className='flex justify-start items-start sm:space-x-4 flex-wrap'>
+return (
+    <div className="pt-24 mb-5 px-6 flex justify-center">
+        <div className='flex justify-center flex-col md:w-2/3'>
+            <div className='flex justify-start items-start
+                sm:space-x-4 flex-wrap'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQli1IRc2DFJf05FmE_DVMoGQbJnFiMmTIygQ&usqp=CAU" alt='project title'
             className='rounded-xl h-64 w-full sm:w-1/3 object-cover' 
             />
