@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Dev Rojas\\Desktop\\Solidity2023\\Projects\\GrandStar\\src\\contracts\\Grandstar.sol": {
+      "lastModificationDate": 1684152998677,
+      "contentHash": "d5a8854e248e18ed0ffe6b3d125beb88",
+      "sourceName": "src/contracts/Grandstar.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Grandstar"
+      ]
+    }
+  }
+}
