@@ -1,3 +1,4 @@
+import CreateProject from "../components/CreateProject"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
 
@@ -11,6 +12,7 @@ const Home = () => {
             font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-green-700'>Load more</button>
 
     </div>
+    <CreateProject />
     </>
   )
 }
